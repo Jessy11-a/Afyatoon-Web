@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>atoon</title>
+        <script src="https://kit.fontawesome.com/e60a3cc0f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- navigation bar starts-->
+       <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="atoon3.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <!-- Menu items... -->
+                <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="library.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Afyatoon Library
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="library.html">Afyatoon Comics</a></li>
+            <li><a class="dropdown-item" href="library.html">Afyatoon Animations</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Therapist Hub
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="fortherapists.html">For Therapist</a></li>
+            <li><a class="dropdown-item" href="availabletherapist.html">Find Therapist</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Discover
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="community.html">Community</a></li>
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+          </ul>
+        </div>
+          <button class="btn btn-dark">Login / Sign Up</button>
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Kiswahili</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- navigation ends here -->
+
+
+    <!-- book appntmnt body -->
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="profile-container">
+          <img src="p3.jpg" class="profile-avatar" alt="Avatar">
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="profile-description">
+            <h3>John Doe</h3>
+            <p>Psychologist</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque placerat est, id aliquam arcu tincidunt sed.</p>
+          </div>
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-md-6">
+       <div class="list-container">
+          <h4>Scope of Practise</h4>
+          <ul class="list-group">
+            <li class="list-group-item list-item">Item 1</li>
+            <li class="list-group-item list-item">Item 2</li>
+            <li class="list-group-item list-item">Item 3</li>
+            <li class="list-group-item list-item">Item 4</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="list-container">
+          <h4>I work With</h4>
+          <ul class="list-group">
+            <li class="list-group-item list-item">Item 1</li>
+            <li class="list-group-item list-item">Item 2</li>
+            <li class="list-group-item list-item">Item 3</li>
+            <li class="list-group-item list-item">Item 4</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+    <div class="booking-form shadow">
+      <h3>Time Booking</h3>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="date" class="form-control" id="date">
+        </div>
+        <div class="form-group">
+          <label for="time">Time</label>
+          <input type="time" class="form-control" id="time">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Book Time</button>
+      </form>
+    </div>
+  </div>
+  
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <!-- footer starts here -->
+  <footer class="bg-light py-4">
+  <div class="container text-center">
+    <p>&copy; 2023 Afyatoon. All rights reserved.</p>
+    <div class="social-icons mt-3">
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</html>

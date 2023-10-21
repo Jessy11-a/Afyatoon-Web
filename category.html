@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>atoon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- navigation bar starts-->
+       <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="atoon3.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <!-- Menu items... -->
+                <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="library.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Afyatoon Library
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="library.html">Afyatoon Comics</a></li>
+            <li><a class="dropdown-item" href="library.html">Afyatoon Animations</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Therapist Hub
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="fortherapists.html">For Therapist</a></li>
+            <li><a class="dropdown-item" href="availabletherapist.html">Find Therapist</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Discover
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="community.html">Community</a></li>
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+          </ul>
+        </div>
+          <button class="btn btn-dark">Login / Sign Up</button>
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Kiswahili</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <!-- navigation ends here -->
+
+   <!-- community by categories Section -->
+   <section class="comics-library">
+    <div class="container">
+      <h3>Communities by category</h3>
+      <h4>Topics</h4>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card mb-4 shadow">
+            <img src="p1.jpg" class="card-img-top" alt="Comic 1">
+            <div class="card-body">
+              <h5 class="card-title">Relationship</h5>
+              <p class="card-text">Members 35</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card mb-4 shadow">
+            <img src="p1.jpg" class="card-img-top" alt="Comic 1">
+            <div class="card-body">
+              <h5 class="card-title">Mental Health</h5>
+              <p class="card-text">Members 56</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card mb-4 shadow">
+            <img src="p1.jpg" class="card-img-top" alt="Comic 3">
+            <div class="card-body">
+              <h5 class="card-title">Addiction</h5>
+              <p class="card-text">Members 78</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card mb-4 shadow">
+            <img src="p1.jpg" class="card-img-top" alt="Comic 4">
+            <div class="card-body">
+              <h5 class="card-title">OCD</h5>
+              <p class="card-text">Members 10</p>
+              <a href="#" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-dark text-center">Load more</button>
+    </div>
+  </section>
+   
+  <!-- comics section ends here -->
+
+
+  <!-- footer starts here -->
+  <footer class="bg-light py-4">
+  <div class="container text-center">
+    <p>&copy; 2023 Afyatoon. All rights reserved.</p>
+    <div class="social-icons mt-3">
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</html>
