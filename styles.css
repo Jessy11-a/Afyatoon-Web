@@ -7,6 +7,12 @@
   
   .mask {
     background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin: 40px
+  }
+
+  .mask p{
+    font-size: 23px;
   }
   
   .text-white {
@@ -68,21 +74,17 @@
 
   .texta {
     flex: 1;
-    padding-right: 20px;
+    padding-right: 50px;
+    padding-left: 20px
   }
 
   .imagea {
     flex: 1;
     text-align: right;
+    /* height: 300px */
   }
 
-  .abutton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* height: 10vh; Adjust the height as needed */
-  }
-
+  
 
   /* community styles */
 
