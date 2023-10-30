@@ -34,42 +34,37 @@
     </nav>
     <!-- navigation ends here -->
 
-<section class="signup-section">
-    <div class="container">
-      <div class="signup-form shadow content">
-        <h2>Sign Up</h2>
-        <form>
-          <div class="mb-3">
-            <label for="name">Name</label>
-            <input type="text" id="name" class="form-control" required>
-          </div>
-          <div class="mb-3">
-            <label for="email">Email</label>
-            <input type="email" id="email" class="form-control" required>
-          </div>
-          <div class="mb-3">
-            <label for="password">Password</label>
-            <input type="password" id="password" class="form-control" required>
-          </div>
-          <div class="mb-3">
-            <label for="user-type">User Type</label>
-            <select id="user-type" class="form-control">
-              <option value="normal">Normal User</option>
-              <option value="therapist">Therapist</option>
-            </select>
-          </div>
-          <button type="submit" class="btn btn-primary">Sign Up</button>
-        </form>
-        <div class="login-link">
-          <p>Already have an account? <a href="login.html">Log in</a></p>
+    <section class="login-section">
+  <div class="container">
+    <div class="login-form shadow content">
+      <h2>Login</h2>
+      <form>
+        <!-- Email input -->
+        <div class="mb-3">
+          <label for="email">Email</label>
+          <input type="email" id="email" class="form-control" required>
         </div>
+        
+        <!-- Password input -->
+        <div class="mb-3">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="form-control" required>
+        </div>
+        
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+      
+      <!-- Signup link -->
+      <div class="signup-link">
+        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
       </div>
     </div>
-  </section>
-
+  </div>
+</section>
 
   <!-- footer starts here -->
-  <footer class="bg-light py-4">
+  <footer class="bg-light py-4 fixed-bottom">
   <div class="container text-center">
     <p>&copy; 2023 Afyatoon. All rights reserved.</p>
     <div class="social-icons mt-3">
